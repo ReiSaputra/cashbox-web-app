@@ -14,6 +14,9 @@ export default {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+            gridTemplateRows: {
+                'custom': '0.5fr 2.5fr',
+              }
         },
     },
     plugins: [],

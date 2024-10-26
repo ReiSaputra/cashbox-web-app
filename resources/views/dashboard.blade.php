@@ -1,19 +1,23 @@
 @extends('layouts.master')
 
-@section("title")@endsection
+@section("title", "Cashbox - Dashboard")
 
 @section('header')
-    @component("components.header")@endcomponent
+    @component("components.default.header")@endcomponent
+@endsection
+
+@section('aside-one')
+    @component("components.default.aside-one")@endcomponent
 @endsection
 
 @section('main')
-    @component("components.main")@endcomponent
+    @component("components.default.main")@endcomponent
 @endsection
 
-@section('aside')
-    @component("components.aside")@endcomponent
+@section('aside-two')
+    @component("components.default.aside-two")@endcomponent
 @endsection
 
 @section('footer')
-    @component("components.footer")@endcomponent
+    @component("components.default.footer")@endcomponent
 @endsection
